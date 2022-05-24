@@ -21,7 +21,7 @@ import tacos.repository.TacoRepository;
 @CrossOrigin(origins = "*")
 public class DesignTacoController {
 	private TacoRepository tacoRepo;
-	@Autowired
+	
 //	EntityLinks entityLinks;
 
 	public DesignTacoController(TacoRepository tacoRepo) {
